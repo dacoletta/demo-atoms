@@ -10,6 +10,5 @@ export class MenuComponent {
   menuClicked(event: boolean) {
     console.log('Output ', event);
     const message = event ? 'Work in progress: Menu opened' : 'Work in progress: Menu closed';
-    alert(message);
   }
 }
