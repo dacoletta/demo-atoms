@@ -4,6 +4,7 @@ section {
     justify-content: center;
     align-items: flex-start;
     align-self: stretch;
+    overflow-x: scroll;
 
     div {
         display: flex;
