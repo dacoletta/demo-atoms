@@ -1,0 +1,75 @@
+div#main {
+    display: flex;
+    flex-direction: column;
+}
+
+span.type {
+    position: relative;
+    bottom: 44px;
+    left: 40px;
+    display: flex;
+    height: 20px;
+    padding: 4px 12px;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: var(--primary-bianco, #FFF);
+    box-shadow: -2px 2px 0px 0px #000;
+    width: fit-content;
+}
+
+span#text {
+    position: relative;
+    bottom: 44px;
+    left: 40px;
+    width: auto;
+    color: var(--primary-bianco, #FFF);
+    font-family: Anybody;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 135% */
+}
+
+#details {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+#authorDate {
+    position: relative;
+    bottom: 44px;
+    left: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex-direction: column;
+    color: var(--primary-bianco, #FFF);
+
+    #date {
+
+        /* Note */
+        font-family: Anybody;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        /* 160% */
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    span#text {
+        font-size: 15px;
+        line-height: 32px;
+        left: 0;
+    }
+    span.type, #authorDate  {
+        left: 0;
+    }
+    
+}

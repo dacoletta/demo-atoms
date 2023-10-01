@@ -1,0 +1,12 @@
+{
+    "menuItems": [
+      { "label": "everyTheme", "link": "" },
+      { "label": "eco", "link": "" },
+      { "label": "economy", "link": "" },
+      { "label": "world", "link": "" },
+      { "label": "noprofit", "link": "" },
+      { "label": "politics", "link": "" },
+      { "label": "society", "link": "" },
+      { "label": "welfare", "link": "" }
+    ]
+  }

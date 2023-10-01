@@ -1,0 +1,11 @@
+<div id="main" *ngIf="info">
+    <span class="type" *ngIf="info.type">{{info.type | translate | uppercase }}</span>
+<span id="text" *ngIf="info.title">{{info.title | translate}}</span>
+<div id="details">
+    <div id="authorDate">
+        <span *ngIf="info.author">{{info.author}}</span>
+        <span id="date" *ngIf="info.date">{{info.date | translate}}</span>
+    </div>
+</div>
+</div>
+

@@ -1,0 +1,49 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+
+    div {
+        display: flex;
+        padding: 24px 40px;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+
+        #label-container {
+            display: flex;
+            height: 48px;
+            padding-right: 0px;
+            align-items: flex-start;
+            gap: 32px;
+            flex: 1 0 0;
+
+            span {
+                display: flex;
+                width: 123px;
+                height: 48px;
+                padding-top: 8px;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-start;
+                gap: 26px;
+
+                color: var(--primary-nero, #000);
+                font-family: Raleway;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+}
+
+/* Stile per dispositivi mobili */
+@media screen and (max-width: 768px) { 
+    section {
+        display: none;
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "news": [
+        "roccella",
+        "iceberg",
+        "startupper",
+        "ukraine",
+        "odessa",
+        "naples",
+        "tiggiano",
+        "sportMinor",
+        "women",
+        "daysentence",
+        "kasbah",
+        "sicomoro",
+        "emergency",
+        "diego",
+        "sicily",
+        "leopoli"
+    ],
+    "authors": [
+        {
+            "name": "Paolo Dell'Oca",
+            "key": "paoloDellOca"
+        },
+        {
+            "name": "Pasquale Pugliese",
+            "key": "pasqualePugliese"
+        },
+        {
+            "name": "Lorenzo Maria Alvaro",
+            "key": "alvaro"
+        },
+        {
+            "name": "Elena Zanella",
+            "key": "elenaZanella"
+        },
+        {
+            "name": "Laura Orestano",
+            "key": "lauraOrestano"
+        }
+    ],
+    "roccella": {
+        "title": "t_roccella",
+        "image": "roccella",
+        "type": "migrants",
+        "author": "Alessandro Puglia",
+        "podcast": null,
+        "date": "29 Giugno 2022"
+    },
+    "iceberg": {
+        "title": "t_iceberg",
+        "image": "iceberg",
+        "type": "migrants",
+        "author": "Ugo Lombi",
+        "podcast": null,
+        "date": "14 Luglio 2022"
+    },
+    "startupper": {
+        "title": "t_startupper",
+        "image": "startupper",
+        "type": "experiments",
+        "author": "Diletta Grella",
+        "podcast": null,
+        "date": "14 Luglio 2022"
+    },
+    "ukraine": {
+        "title": "t_ukraine",
+        "image": "ukraine",
+        "type": "ukraine",
+        "author": "Anna Spena",
+        "podcast": null,
+        "date": "14 Luglio 2022"
+    },
+    "odessa": {
+        "title": "t_odessa",
+        "image": "odessa",
+        "type": "arca",
+        "author": "Redazione",
+        "podcast": null,
+        "date": "13 Luglio 2022"
+    },
+    "naples": {
+        "title": "t_naples",
+        "image": "teenager",
+        "type": "teenager",
+        "author": "Luca Cereda",
+        "podcast": null,
+        "date": "13 Luglio 2022"
+    },
+    "tiggiano": {
+        "title": "t_tiggiano",
+        "image": "tiggiano",
+        "type": "economyCivic",
+        "author": "Emiliano Moccia",
+        "podcast": null,
+        "date": "13 Luglio 2022"
+    },
+    "sportMinor": {
+        "title": "t_sportMinor",
+        "image": "sportMinor",
+        "type": "sport",
+        "author": "Diletta Grella",
+        "podcast": null,
+        "date": "14 Luglio 2022"
+    },
+    "women": {
+        "title": "t_women",
+        "image": "women",
+        "type": "society",
+        "author": "Anna Spena",
+        "podcast": null,
+        "date": "14 Luglio 2022"
+    },
+    "daysentence": {
+        "title": "t_daysentence",
+        "image": "daysentence",
+        "type": "",
+        "author": "",
+        "podcast": null,
+        "date": ""
+    },
+    "kasbah": {
+        "title": "t_kasbah",
+        "image": "kasbah",
+        "type": "socialEnterprise",
+        "author": "Giovanni Gavardi",
+        "podcast": null,
+        "date": ""
+    },
+    "sicomoro": {
+        "title": "t_sicomoro",
+        "image": "sicomoro",
+        "type": "innovation",
+        "author": "Luigi Alfonso",
+        "podcast": null,
+        "date": ""
+    },
+    "emergency": {
+        "title": "t_emergency",
+        "image": "emergency",
+        "type": "handicap",
+        "author": "Sara Berlingieri",
+        "podcast": null,
+        "date": ""
+    },
+    "diego": {
+        "title": "t_diego",
+        "image": "diego",
+        "type": "trajectories",
+        "author": "Giampaolo Cerri",
+        "podcast": null,
+        "date": ""
+    },
+    "sicily": {
+        "title": "t_sicily",
+        "image": "sicily",
+        "type": "social",
+        "author": "Giovanni Gamba",
+        "podcast": null,
+        "date": ""
+    },
+    "leopoli": {
+        "title": "t_leopoli",
+        "image": "leopoli",
+        "type": "ukraine",
+        "author": "Gilda Sciortino",
+        "podcast": null,
+        "date": ""
+    }
+
+
+}

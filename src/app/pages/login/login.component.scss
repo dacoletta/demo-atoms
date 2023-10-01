@@ -1,0 +1,23 @@
+section {
+    display: flex;
+    height: 48px;
+    padding: 16px 40px;
+    align-items: center;
+    gap: 24px;
+    border-bottom: 1px solid black;
+
+    #access {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+
+        svg {
+            display: flex;
+            width: 20px;
+            height: 20px;
+            padding: 2px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

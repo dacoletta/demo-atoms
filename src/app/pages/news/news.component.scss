@@ -1,0 +1,291 @@
+$path-img-roccella: '../../../assets/img/roccella.jpg';
+$path-img-startupper: "../../../assets/img/podcast.jpg";
+$path-img-ukraine: "../../../assets/img/ukraine.png";
+$path-img-iceberg: "../../../assets/img/iceberg.png";
+$path-img-podcast: "../../../assets/img/podcast.jpg";
+$path-img-ukraine: "../../../assets/img/ukraine.png";
+$path-img-naples: "../../../assets/img/teenagers.jpg";
+$path-img-tiggiano: "../../../assets/img/tiggiano.jpg";
+$path-img-women: "../../../assets/img/women.jpg";
+$path-img-sportMinor: "../../../assets/img/sportMinor.jpg";
+
+$path-img-daysentence: "../../../assets/img/daysentence.png";
+$path-img-kasbah: "../../../assets/img/kasbah.png";
+$path-img-sicomoro: "../../../assets/img/sicomoro.jpg";
+$path-img-emergency: "../../../assets/img/emergency.jpg";
+$path-img-diego: "../../../assets/img/diego.jpg";
+$path-img-sicily: "../../../assets/img/sicily.jpg";
+$path-img-leopoli: "../../../assets/img/leopoli.png";
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(24, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    div {
+        display: flex;
+        width: auto;
+        padding: 44px 40px;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 24px;
+        height: auto;
+    }
+}
+
+.div1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-roccella) lightgray 50% / cover no-repeat;
+    grid-area: 1 / 1 / 4 / 7;
+}
+
+.div2 {
+    grid-area: 4 / 1 / 8 / 5;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-iceberg) lightgray 50% / cover no-repeat;
+}
+
+.div3 {
+    grid-area: 4 / 5 / 6 / 7;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-startupper) lightgray 50% / cover no-repeat;
+}
+
+.div4 {
+    grid-area: 6 / 5 / 8 / 7;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-ukraine) lightgray 50% / cover no-repeat;
+}
+
+.div5 {
+    padding: 0 !important;
+    align-items: unset !important;
+    grid-area: 8 / 1 / 9 / 7;
+    justify-content: center !important;
+}
+
+
+
+.div6 {
+    grid-area: 9 / 1 / 13 / 3;
+    background: var(--primary-rosso, #E63036);
+}
+
+.div7 {
+    grid-area: 9 / 3 / 13 / 5;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-naples) lightgray 50% / cover no-repeat;
+
+}
+
+.div8 {
+    grid-area: 9 / 5 / 13 / 7;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-tiggiano) lightgray 50% / cover no-repeat;
+
+}
+
+.div9 {
+    grid-area: 13 / 1 / 16 / 3;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-sportMinor) lightgray 50% / cover no-repeat;
+
+}
+
+.div10 {
+    grid-area: 13 / 3 / 16 / 7;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-women) lightgray 50% / cover no-repeat;
+}
+
+.div11 {
+    grid-area: 16 / 1 / 17 / 7;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-daysentence) lightgray 50% / cover no-repeat;
+}
+
+.div12 {
+    grid-area: 17 / 1 / 18 / 2;
+    background: white;
+    border-right: 1px solid black;
+    justify-content: center !important;
+    align-items: center !important;
+    span {
+        color: var(--primary-rosso, #E63036);
+        font-family: Anybody;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+    }
+}
+
+.div13 {
+    grid-area: 17 / 2 / 18 / 3;
+    background: white;
+    border-right: 1px solid black;
+}
+
+.div14 {
+    grid-area: 17 / 3 / 18 / 4;
+    background: white;
+    border-right: 1px solid black;
+}
+
+.div15 {
+    grid-area: 17 / 4 / 18 / 5;
+    background: white;
+    border-right: 1px solid black;
+}
+
+.div16 {
+    grid-area: 17 / 5 / 18 / 6;
+    background: white;
+    border-right: 1px solid black;
+}
+
+.div17 {
+    grid-area: 17 / 6 / 18 / 7;
+    background: white;
+}
+
+.div18 {
+    grid-area: 18 / 1 / 21 / 7;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-kasbah) lightgray 50% / cover no-repeat;
+}
+
+.div19 {
+    grid-area: 21 / 1 / 22 / 4;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-sicomoro) lightgray 50% / cover no-repeat;
+}
+
+.div20 {
+    grid-area: 22 / 1 / 23 / 4;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-emergency) lightgray 50% / cover no-repeat;
+}
+
+.div21 {
+    grid-area: 23 / 1 / 24 / 4;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-diego) lightgray 50% / cover no-repeat;
+}
+
+.div22 {
+    grid-area: 24 / 1 / 25 / 4;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-sicily) lightgray 50% / cover no-repeat;
+}
+
+.div23 {
+    grid-area: 21 / 4 / 25 / 7;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url($path-img-leopoli) lightgray 50% / cover no-repeat;
+}
+
+app-blog-info {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(23, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .div1 {
+        grid-area: 1 / 1 / 2 / 7;
+    }
+
+    .div2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .div3 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .div4 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .div5 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    .div6 {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+
+    .div7 {
+        grid-area: 7 / 1 / 8 / 2;
+    }
+
+    .div8 {
+        grid-area: 8 / 1 / 9 / 2;
+    }
+
+    .div9 {
+        grid-area: 9 / 1 / 10 / 2;
+    }
+
+    .div10 {
+        grid-area: 10 / 1 / 11 / 2;
+    }
+
+    .div11 {
+        grid-area: 11 / 1 / 12 / 2;
+    }
+
+    .div12 {
+        grid-area: 12 / 1 / 13 / 2;
+    }
+
+    .div13 {
+        grid-area: 13 / 1 / 14 / 2;
+    }
+
+    .div14 {
+        grid-area: 14 / 1 / 15 / 2;
+    }
+
+    .div15 {
+        grid-area: 15 / 1 / 16 / 2;
+    }
+
+    .div16 {
+        grid-area: 16 / 1 / 17 / 2;
+    }
+
+    .div17 {
+        grid-area: 17 / 1 / 18 / 2;
+    }
+
+    .div18 {
+        grid-area: 18 / 1 / 19 / 2;
+    }
+
+    .div19 {
+        grid-area: 19 / 1 / 20 / 2;
+    }
+
+    .div20 {
+        grid-area: 20 / 1 / 21 / 2;
+    }
+
+    .div21 {
+        grid-area: 21 / 1 / 22 / 2;
+    }
+
+    .div22 {
+        grid-area: 22 / 1 / 23 / 2;
+    }
+
+    .div23 {
+        grid-area: 23 / 1 / 24 / 2;
+    }
+
+
+    .div12,
+    .div13,
+    .div14,
+    .div15,
+    .div16 {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+
+}
