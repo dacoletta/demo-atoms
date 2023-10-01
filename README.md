@@ -1,5 +1,5 @@
 # View Demo on Vercel
-https://demo-atoms-mcf5ni4bz-dacolettas-projects.vercel.app/
+https://demo-atoms.vercel.app/
 
 # DemoAtoms
 
